@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project": "demo-project",
+  "milestone": {
+    "id": "M2",
+    "name": "integration-validation",
+    "status": "active"
+  },
+  "task": {
+    "id": "batch-005",
+    "name": "synthetic-end-to-end-validation",
+    "status": "claimed",
+    "claim_marker": "example-claim-123",
+    "external_receipt": null
+  },
+  "verification": {
+    "tests": "passing",
+    "last_verified_at": "2026-09-15T21:00:00Z"
+  },
+  "gates": {
+    "production_deploy": "blocked",
+    "paid_data_download": "requires_explicit_approval"
+  },
+  "next_action": "Reconcile the existing claim before any external creation."
+}
